@@ -1,0 +1,23 @@
+@import "tailwindcss";
+body{
+   background-image: url('/my-project/public/Bg-img.svg');
+}
+*{
+  overflow-x: hidden;
+ 
+}
+@font-face {
+  font-family: neu1;
+  src: url('/my-project/public/NeueMachina-Regular_DQCmjH1st.ttf');
+}
+@font-face {
+  font-family: neu2;
+  src: url('/my-project/public/NeueMachina-Light_gwWCZxVuQl.ttf');
+}
+@font-face {
+  font-family: hell;
+  src: url('/my-project/public/HelveticaNowDisplay-Regular_5Mzhp8KlA8_CAVTbnsPOM.woff2');
+}
+:root{
+  --green:#27DFB3;
+}
