@@ -36,9 +36,9 @@ type="text" className='w-100 text-white outline-0 h-7 px-3 py-2 bg-[#1E1E1E] rou
      </div>
      <div className='flex flex-col gap-5'>
      <div className='flex gap-2'>
-<div className='border-b border-b-[#2D2D2D] w-[180px] mb-2'></div>
+<div className='border-b border-b-[#2D2D2D] w-45 mb-2'></div>
 <div><h1 className='text-sm text-[#998f8f]'>Or</h1></div>
-<div className='border-b border-b-[#2D2D2D] w-[180px] mb-2'></div>
+<div className='border-b border-b-[#2D2D2D] w-45 mb-2'></div>
      </div>
      <div>
         <button
