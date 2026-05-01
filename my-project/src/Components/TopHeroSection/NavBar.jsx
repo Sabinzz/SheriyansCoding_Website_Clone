@@ -1,5 +1,4 @@
 import React from 'react'
-import lion from '/public/Lion.webp'
 import { Link } from 'react-router-dom'
 const NavBar = ({onCourseClick,show}) => {
   return (

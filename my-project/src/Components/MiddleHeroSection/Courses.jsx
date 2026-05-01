@@ -1,24 +1,18 @@
 import React from 'react'
-import first from '/Sheriyans/my-project/public/Courses/First.webp'
-import second from '/Sheriyans/my-project/public/Courses/Second.webp'
-import third from '/Sheriyans/my-project/public/Courses/Third.webp'
-import fourth from '/Sheriyans/my-project/public/Courses/Fourth.webp'
-import fifth from '/Sheriyans/my-project/public/Courses/Fifth.webp'
-import sixth from '/Sheriyans/my-project/public/Courses/Sixth.webp'
 import { Icon } from '@iconify/react';
 const Courses = () => {
   const course=[{
-id:1,img:first,title:"Data Science and Analytics with GenAI",button1:"HINGLISH",text:"Limited Time Discount",money1:"₹ 6999",money2:"₹15000",discount:"53% OFF"
+id:1,img:"/Courses/First.webp",title:"Data Science and Analytics with GenAI",button1:"HINGLISH",text:"Limited Time Discount",money1:"₹ 6999",money2:"₹15000",discount:"53% OFF"
   },{
-id:2,img:second,title:"2.0 Job Ready AI Powered Cohort: Web+DSA+Aptitude",button1:"HINGLISH",text:"Limited Time Discount",money1:"₹ 6999",money2:"₹15000",discount:"53% OFF"
+id:2,img:"/Courses/Second.webp",title:"2.0 Job Ready AI Powered Cohort: Web+DSA+Aptitude",button1:"HINGLISH",text:"Limited Time Discount",money1:"₹ 6999",money2:"₹15000",discount:"53% OFF"
   },{
-id:3,img:third,title:"DSA Domination Cohort:AI Powered Cohort",button1:"HINGLISH",text:"Limited Time Discount",money1:"₹ 6999",money2:"₹15000",discount:"53% OFF"
+id:3,img:"/Courses/Third.webp",title:"DSA Domination Cohort:AI Powered Cohort",button1:"HINGLISH",text:"Limited Time Discount",money1:"₹ 6999",money2:"₹15000",discount:"53% OFF"
   },{
-id:4,img:fourth,title:"Job Ready AI Powered Cohort: Web+DSA+Aptitude",button1:"HINGLISH",text:"Limited Time Discount",money1:"₹ 6999",money2:"₹15000",discount:"53% OFF"
+id:4,img:"/Courses/Fourth.webp",title:"Job Ready AI Powered Cohort: Web+DSA+Aptitude",button1:"HINGLISH",text:"Limited Time Discount",money1:"₹ 6999",money2:"₹15000",discount:"53% OFF"
   },{
-id:5,title:"Three.js Domination:AI Powered Cohort",img:fifth,button1:"HINGLISH",text:"Limited Time Discount",money1:"₹ 6999",money2:"₹15000",discount:"53% OFF"
+id:5,title:"Three.js Domination:AI Powered Cohort",img:"/Courses/Fifth.webp",button1:"HINGLISH",text:"Limited Time Discount",money1:"₹ 6999",money2:"₹15000",discount:"53% OFF"
   },{
-id:6,title:"Java & DSA Domination:AI Powered Cohort",img:sixth,button1:"HINGLISH",text:"Limited Time Discount",money1:"₹ 6999",money2:"₹15000",discount:"53% OFF"
+id:6,title:"Java & DSA Domination:AI Powered Cohort",img:"/Courses/Sixth.webp",button1:"HINGLISH",text:"Limited Time Discount",money1:"₹ 6999",money2:"₹15000",discount:"53% OFF"
   }]
   return (
     <div className='grid grid-cols-3 gap-8 mx-30 mt-10'>
