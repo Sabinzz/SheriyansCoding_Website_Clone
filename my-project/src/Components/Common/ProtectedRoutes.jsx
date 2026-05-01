@@ -10,7 +10,7 @@ const ProtectedRoutes = ({children}) => {
       }
     
       
-    }, [])
+    }, [isAuthorized, navigate])
     
   return (
   children

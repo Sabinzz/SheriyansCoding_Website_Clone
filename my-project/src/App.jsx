@@ -1,7 +1,4 @@
 import { useRef, useState, useEffect } from 'react'
-import Courses from './Components/MiddleHeroSection/Courses'
-import LastSection from './Components/TopHeroSection/LastSection'
-import MiddleSection from './Components/TopHeroSection/MiddleSection'
 import NavBar from './Components/TopHeroSection/NavBar'
 import Home from './Components/Pages/Home'
 import { Route,Routes} from 'react-router-dom'
@@ -40,11 +37,11 @@ function App() {
     <>
       <NavBar show={showNav} onCourseClick={onCourseClick}/>
       <div 
-        className="w-screen min-h-screen bg-cover bg-center"
+        className="min-h-screen w-full bg-cover bg-center"
         style={{ backgroundImage: "url('/Bg-img.svg')"}}
       >
         <Routes>
-          <Route path="/" element={<Home useCourseRef={useCourse}/>}></Route>
+          <Route path="/" element={<Home useCourseRef={useCourse} onCourseClick={onCourseClick}/>}></Route>
 
           <Route path='/Bootcamp' element={
             <ProtectedRoutes>

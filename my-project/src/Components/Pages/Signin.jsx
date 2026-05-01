@@ -12,14 +12,14 @@ const Signin = () => {
         },
     })
   return (
-    <div className='h-screen w-screen bg-[#0C0C0C]'>
-<div className='flex flex-col gap-15  items-center'>
-      <div className='flex justify-center items-center flex-col gap-22 mt-40'>
+    <div className='min-h-screen w-full bg-[#0C0C0C] px-4 pb-10 pt-28'>
+<div className='mx-auto flex w-full max-w-md flex-col items-center gap-10 sm:gap-15'>
+      <div className='flex w-full flex-col items-center justify-center gap-10 sm:gap-16'>
         <div>
-            <h1 className='text-center text-white text-[40px]'>Sign In</h1>
+            <h1 className='text-center text-4xl text-white sm:text-[40px]'>Sign In</h1>
         </div>
-        <div>
-            <div className='flex flex-col gap-2'>
+        <div className='w-full'>
+            <div className='flex w-full flex-col gap-2'>
                 <label className='text-[#8C9E9E] text-sm'>Mobile Number *</label>
 <input
 onFocus={(e)=>{
@@ -29,32 +29,32 @@ onBlur={(e)=>{
     e.target.placeholder="Enter Your Mobile Number"
 }}
 
-type="text" className='w-100 text-white outline-0 h-7 px-3 py-2 bg-[#1E1E1E] rounded-sm border-b-2 border-b-[#2D2D2D] placeholder:text-[#9E9E8C] placeholder:text-sm' placeholder='Enter Your Mobile Number'/>
+type="text" className='h-11 w-full rounded-sm border-b-2 border-b-[#2D2D2D] bg-[#1E1E1E] px-3 py-2 text-white outline-0 placeholder:text-sm placeholder:text-[#9E9E8C]' placeholder='Enter Your Mobile Number'/>
             </div>
         </div>
 
      </div>
-     <div className='flex flex-col gap-5'>
-     <div className='flex gap-2'>
-<div className='border-b border-b-[#2D2D2D] w-45 mb-2'></div>
+     <div className='flex w-full flex-col gap-5'>
+     <div className='flex items-center gap-2'>
+<div className='mb-2 flex-1 border-b border-b-[#2D2D2D]'></div>
 <div><h1 className='text-sm text-[#998f8f]'>Or</h1></div>
-<div className='border-b border-b-[#2D2D2D] w-45 mb-2'></div>
+<div className='mb-2 flex-1 border-b border-b-[#2D2D2D]'></div>
      </div>
      <div>
         <button
         onClick={GoogleLogin}
-        className='border border-[#2D2D2D] px-22 py-3 rounded-full'>
-            <div className='flex gap-3 items-center'>
+        className='w-full rounded-full border border-[#2D2D2D] px-5 py-3'>
+            <div className='flex items-center justify-center gap-3'>
 <Icon icon="material-icon-theme:google" fontSize={30}/>
-<h1 className='text-[#EBEBEB] text-lg'>Continue with Google</h1>
+<h1 className='text-base text-[#EBEBEB] sm:text-lg'>Continue with Google</h1>
             </div>
         </button>
      </div>
      <div className='-mt-2'>
-        <button className='border border-[#2D2D2D] px-22 py-3 rounded-full '>
-            <div className='flex gap-3 items-center'>
+        <button className='w-full rounded-full border border-[#2D2D2D] px-5 py-3'>
+            <div className='flex items-center justify-center gap-3'>
 <Icon icon="mdi:account-add-outline" fontSize={30} color='white'/>
-<h1 className='text-[#EBEBEB] text-lg'>Create a New Account</h1>
+<h1 className='text-base text-[#EBEBEB] sm:text-lg'>Create a New Account</h1>
             </div>
         </button>
      </div>

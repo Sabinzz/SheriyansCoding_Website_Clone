@@ -1,9 +1,20 @@
 @import "tailwindcss";
+html,
+body,
+#root{
+  min-height: 100%;
+}
+
 body{
    background-image: url('/Bg-img.svg');
+   background-color: #0C0C0C;
+   background-size: cover;
+   background-position: center;
+   margin: 0;
+   overflow-x: hidden;
 }
 *{
-  overflow-x: hidden;
+  box-sizing: border-box;
  
 }
 @font-face {
